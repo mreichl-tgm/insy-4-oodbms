@@ -9,20 +9,21 @@
         <div class="slides">
             <!-- Titelseite -->
             <section>
-                <h1>NoSQL</h1>
-                <h4><< Not only sql >></h4>
+                <h1>OODBMS</h1>
+                <h3>Objektdatenbanken</h3>
             </section>
-            <!-- Intro -->
+            <!-- NoSQL -->
             <section>
-                <q>
-                    <p>"NoSQL bezeichnet Datenbanken, die einen nicht-relationalen Ansatz verfolgen ... Sie benötigen keine festgelegten Tabellenschemata und versuchen Joins zu vermeiden."</p>
-                    <i>— wikipedia.org/wiki/NoSQL</i>
-                </q>
-            </section>
-            <!-- Architektur -->
-            <section>
+                <!-- Intro -->
                 <section>
-                    <h3>Architektur</h3>
+                    <h3>NoSQL</h3>
+                    <q>
+                        <p>"NoSQL bezeichnet Datenbanken, die einen nicht-relationalen Ansatz verfolgen ... Sie benötigen keine festgelegten Tabellenschemata und versuchen Joins zu vermeiden."</p>
+                        <i>— wikipedia.org/wiki/NoSQL</i>
+                    </q>
+                </section>
+                <!-- Architektur -->
+                <section>
                     <ul>
                         <li>Viele Lese- und Schreibanfragen möglich</li>
                         <li>Häufig optimiert für verteilte Systeme</li>
@@ -35,21 +36,69 @@
                     <img src="imgs/cap.svg" alt="cap">
                 </section>
             </section>
-            <!-- MongoDB -->
+            <!-- Objectdatenbanken -->
+            <section>
+                <!-- Intro -->
+                <section>
+                    <h3>Objektdatenbanken</h3>
+                    <q>Objektdatenbanken stellen Informationen in Form von Objekten dar. Sie vereinen die Vorteile von Datenbanken und Objektorientierter Programmierung.</q>
+                </section>
+                <!-- Eigenschaften -->
+                <section>
+                    <h4>Eigenschaften</h4>
+                    <ul>
+                        <li>Verwalten auch komplexe Objekte</li>
+                        <li>Stellen die Objektidentität sicher</li>
+                        <li>Ermöglichen die Verwendung objektorientierter Paradigmen</li>
+                    </ul>
+                </section>
+                <!-- Beispiele -->
+                <section>
+                    <h4>Beispiele</h4>
+                    db40, Objectivity, ObjectStore, JDataStore, O2, SmallSQL, Zope (ZODB)
+                </section>
+            </section>
+            <!-- Objektrelationale Datenbanken -->
+            <section>
+                <!-- Intro -->
+                <section>
+                    <h3>Objektrelationale Datenbanken</h3>
+                    <q><p>"... kombinieren relationale Datenbanken und Objektdatenbanken. Stellen Beziehungen zwischen Mengen von Objekten zu anderen Daten oder Objekten her."</p><i>— wikipedia.org/wiki/Objektrelationale_Datenbank</i></q>
+                </section>
+                <!-- Eigenschaften -->
+                <section>
+                    <h4>Eigenschaften</h4>
+                    <ul>
+                        <li>Besitzen eine objektorientierte Zugriffsschicht</li>
+                        <li>Entitäten werden als Objekte verwaltet</li>
+                    </ul>
+                </section>
+                <!-- Beispiele -->
+                <section>
+                    <h4>Beispiele</h4>
+                    Informix, OracleDB, IBM DB2, Cache, PostgreSQL
+                </section>
+            </section>
+            <!-- ZODB -->
             <section>
                 <section>
-                    <h3>MongoDB</h3>
-                    <q><p>"MongoDB ist eine Allzweckdatenbank mit offenem Quellcode ... für Skalierbarkeit, Leistung und hohe Verfügbarkeit gebaut"</p><i>— mongodb.com</i></q>
-                </section>
-                <section>
+                    <h3>ZODB</h3>
+                    <h4>ZODB bietet als Objektdatenbank</h4>
                     <ul>
-                        <li>Hohe Leistung für Lese- und Schreibvorgänge</li>
-                        <li>Umfassende flexible Indexunterstützung</li>
-                        <li>Eingebaute Replikation mit automatisierter Ausfallsicherung</li>
-                        <!-- Replikation bezeichnet die mehrfache Speicherung derselben Daten an meist mehreren verschiedenen Standorten und die Synchronisation dieser Datenquellen. -->
-                        <li>Hohe Sicherheitsstandards</li>
-                        <li>Speicherung großer Dateien möglich</li>
-                        <li>Native Treiber für populäre Sprachen und Frameworks</li>
+                        <li>Eine einheitliche Sprache für Datenbankoperationen und Quelltext</li>
+                        <li>Speicherung von Objekten ohne viel Aufwand</li>
+                        <li>Nahezu kein Unterschied zwischen Code und Datenbank</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h4>Weitere Features</h4>
+                    <ul>
+                        <li>Einfaches Testen</li>
+                        <li>Versionierung</li>
+                        <li>BLOBS</li>
+                        <li>Caching</li>
+                        <li>Aufgeteilte Speicherung</li>
                     </ul>
                 </section>
             </section>
@@ -57,9 +106,11 @@
             <section>
                 <h3>Resources</h3>
                 <ul>
-                    <li><a href="http://berb.github.io/diploma-thesis/original/resources/cap.svg">http://berb.github.io</a></li>
-                    <li><a href="https://de.wikipedia.org/wiki/NoSQL">https://de.wikipedia.org/wiki/NoSQL</a></li>
-                    <li><a href="https://www.mongodb.com/de">https://www.mongodb.com</a></li>
+                    <li><a href="http://berb.github.io/diploma-thesis/original/resources/cap.svg">berb.github.io</a></li>
+                    <li><a href="https://de.wikipedia.org/wiki/NoSQL">de.wikipedia.org/wiki/NoSQL</a></li>
+                    <li><a href="https://de.wikipedia.org/wiki/Objektdatenbank">de.wikipedia.org/wiki/Objektdatenbank</a></li>
+                    <li><a href="https://de.wikipedia.org/wiki/Objektrelationale_Datenbank">de.wikipedia.org/wiki/Objektrelationale_Datenbank</a></li>
+                    <li><a href="http://www.zodb.org/en/latest/">www.zodb.org</a></li>
                 </ul>
             </section>
         </div>
